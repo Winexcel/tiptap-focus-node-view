@@ -3,7 +3,7 @@ import { Extension } from '@tiptap/core';
 // @ts-ignore
 import { Plugin, PluginKey } from 'prosemirror-state';
 
-const FocusNodeView = Extension.create <FocusOptions>({
+const FocusNodeView = Extension.create({
   name: 'focus',
 
   defaultOptions: {
