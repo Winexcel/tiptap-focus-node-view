@@ -8,7 +8,6 @@ const FocusNodeView = Extension.create <FocusOptions>({
 
   defaultOptions: {
     className: 'has-focus',
-    mode: 'all',
   },
 
   addProseMirrorPlugins() {
